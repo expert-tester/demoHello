@@ -15,6 +15,7 @@ public class TestGit {
      */
     public static void main(String[] args) {
         System.out.print("Hello, this is the first commit to initialize the repository.");
+        System.out.print("this is the third line actually.");
     }
     
 }
