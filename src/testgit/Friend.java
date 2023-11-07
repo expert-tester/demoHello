@@ -9,12 +9,22 @@ package testgit;
  * @author Chun On
  */
 public class Friend {
-    	String name;
+    	private String name;
+        private int age;
 	
-	static int numberOfFriends;
+	public static int numberOfFriends;
 	
-	Friend(String name){
+	Friend(String name, int age){
 		this.name=name;
+                this.age=age;
 		numberOfFriends++;
 	}	
+        
+        public String nameofFriends() {
+            return name;
+	}
+        
+        public int ageofFriends() {
+            return age;
+        }
 }
